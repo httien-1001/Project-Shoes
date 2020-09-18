@@ -450,5 +450,30 @@
     text-align: center;
     color: #000000;
     text-decoration: none;
+    font-family: Sand-Bold;
 
+}
+/* cart */
+.cart-table{
+    margin-top: 45px;
+    margin-bottom: 30px;
+}
+.cart-table thead tr th{
+    font-size: 18px;
+    
+}
+.btn-payment{
+    padding: 7px 15px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 24px;
+    height: 75px;
+    width: max-content;
+    border-bottom: 1px grey;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+    font-family: Sand-Bold;
 }
