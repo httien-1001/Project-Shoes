@@ -258,6 +258,7 @@
 .dot-white{
     border: 0.5px solid black;
 
+    /* test-color */
 }
 .green{
     background-color: #2A4239;
@@ -273,4 +274,61 @@
 }
 .black{
     background-color: #000;
+}
+/* about */
+.about-intro{
+    text-align: justify;
+    margin-top: 45px;
+    margin-bottom: 30px;
+}
+.about-intro span{
+    font-size: 25px;
+    font-family: Sand-Light;
+    
+}
+.about-divider{
+    position: relative;
+}
+.about-divider span{
+    font-family: Sand-Bold;
+    font-size: 36px;
+    text-transform: uppercase;
+    /* position: absolute; */
+    padding-left: 50px;
+}
+.about-divider span::before{
+    position: absolute;
+    height: 1px;
+    content: "";
+    background: #000;
+    width: 1000px;
+    top: 50%;
+    right: 60%;
+}
+.about-divider span::after{
+    position: absolute;
+    height: 1px;
+    content: "";
+    background: #000;
+    width: 475px;
+    top: 50%;
+    left: 64%;
+}
+.about-content{
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.about-pic{
+    width: 100%;
+    
+}
+.about-pic img{
+    width: 100%;
+    border-radius: 15px;
+}
+.about-text span{
+    display: block;
+    padding-bottom: 15px;
+    font-size: 18px;
+    font-family: Sand-Light;
 }
