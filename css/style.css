@@ -332,3 +332,123 @@
     font-size: 18px;
     font-family: Sand-Light;
 }
+/* item */
+.item-divider{
+    margin-top: 200px;
+    position: relative;
+    margin-bottom: 45px;
+}
+.item-divider span{
+    
+    font-size: 30px;
+    text-transform: uppercase;
+    /* position: absolute; */
+    padding-left: 50px;
+}
+.item-divider span::before{
+    position: absolute;
+    height: 1px;
+    content: "";
+    background: #000;
+    width: 1000px;
+    top: 50%;
+    right: 65%;
+}
+.item-divider span::after{
+    position: absolute;
+    height: 1px;
+    content: "";
+    background: #000;
+    width: 409px;
+    top: 50%;
+    left: 69%;
+}
+.detail-img{
+    width: 100%;
+    height: 450px;
+}
+.detail-img img{
+    width: 100%;
+    height: 100%;
+}
+.items{
+    border: 0.5px solid #000000;
+}
+.detail-name{
+    margin-top: 90px;
+}
+.detail-name span{
+    font-size:30px;
+    font-family: Sand-Bold;
+
+}
+.detail-price{
+    margin-top: 15px;
+}
+.detail-price span{
+    font-size: 30px;
+    font-family: Sand-Light;
+}
+.item-dot{
+    margin-top: 15px;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 15px;
+}
+.detail-size{
+    
+}
+.detail-size .form-control{
+    margin-top: 15px;
+    font-size: 20px;
+    height: 60px;
+    width: 100%;
+    /* padding-right: 30px; */
+}
+.detail-size option{
+    font-size: 20px;
+}
+.detail-size .form-control-2{
+    margin-top: 15px;
+    font-size: 20px;
+    height: 60px;
+    width: 36%;
+    /* float: left !important; */
+}
+
+.detail-describe{
+    margin-top: 15px;
+    text-align: justify;
+}
+.detail-describe span{
+    font-size: 16px;
+}
+.detail-img-2{
+    margin-top: -50px;
+    width: 100%;
+    height: 500px;
+}
+.detail-img-2 img{
+    width: 100%;
+    height: 100%;
+}
+.divider-2{
+    margin-top: 0px;
+}
+.btn-add-to-cart, .btn-add-to-cart a{
+    padding: 7px 15px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 24px;
+    height: 75px;
+    width: max-content;
+    border-bottom: 1px grey;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+
+}
