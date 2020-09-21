@@ -10,6 +10,7 @@ function myFunction() {
     header.classList.remove("sticky");
   }
 };
+
 $('.owl-carousel').owlCarousel({
   loop:true,
   margin:7,
@@ -29,4 +30,11 @@ $('.owl-carousel').owlCarousel({
           // nav:true
       }
   }
-})
+});
+
+var flag = true;
+$('#click-menu').click(function() {
+    alert('hello');
+    $('#menu-demo').slideToggle();
+    console.log(flag);  
+});

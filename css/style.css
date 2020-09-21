@@ -39,22 +39,36 @@
 .header-menu nav ul li{
     display: inline-block;
     padding: 7px 15px;
+    position: relative;
 }
 .header-menu nav ul li.logo img{
-    width: 60px;
+    width: 120px;
 }
 .header-menu nav ul li a{
     text-decoration: none;
     color: #000000;
     padding-bottom: 2px;
-    position: relative;
 }
-.header-menu nav ul li a:hover ul li a{
-    display: inline;
+.header-menu nav ul li ul{
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    background-color: #fff;
+    width: 100px;
+    display: none;
 }
-.header-menu nav ul li:hover a{
+.header-menu nav ul li ul li{
+    display: block;
+    padding: 15px;
+}
+/* .header-menu nav ul li:hover a{
     border-bottom: 1px solid #000000;
 }
+*/
+.header-menu nav ul li:hover ul{
+    display: block;
+}  
+    
 .sticky{
     position: fixed;
     top: 0;
@@ -487,3 +501,13 @@
     text-decoration: none;
     font-family: Sand-Bold;
 }
+
+/* responsive menu */
+@media screen and (max-width: 768px){
+    .menu-pc{display: none;}
+    .menu-mobile{display: block;}
+    
+    }
+@media screen and (min-width: 769px){
+    .menu-mobile{display: none;}
+    }
