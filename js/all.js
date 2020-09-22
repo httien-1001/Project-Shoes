@@ -9,6 +9,7 @@ function myFunction() {
   } else {
     header.classList.remove("sticky");
   }
+  
 };
 
 $('.owl-carousel').owlCarousel({
@@ -30,11 +31,4 @@ $('.owl-carousel').owlCarousel({
           // nav:true
       }
   }
-});
-
-var flag = true;
-$('#click-menu').click(function() {
-    alert('hello');
-    $('#menu-demo').slideToggle();
-    console.log(flag);  
 });
