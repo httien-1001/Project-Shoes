@@ -504,10 +504,47 @@
     text-decoration: none;
     font-family: Sand-Bold;
 }
+.btn-payment a{
+    text-decoration: none;
+    color: black;
+}
 .btn-click-menu{
     margin-top: 10px;
     margin-left: 10px;
 }
+/* payment */
+.form-title h3{
+    font-size: 24px;
+    font-weight: bold;
+
+}
+.payment-box{
+    margin-top: 15px;
+    border: 1px solid #000;
+    height: 300px;
+}
+.payment-box-title h3{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.payment-box-detail .table{
+    margin-bottom: 45px;
+}
+.payment-box-detail>.table>tbody>tr>td{
+    border-top: none;
+}
+.payment-all{
+   border-top: 1px solid black; 
+}
+.payment-rule{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.modal-body p{
+    display: block;
+}
+.payment-all 
 /* faq */
 .faq-list{
     padding-left: 30px;
@@ -532,7 +569,55 @@ border-bottom: 20px solid transparent;
   
 border-left: 20px solid white;
 }
+/* contact */
+.hidden{
+    display: hidden;
+}
+.red-border{
+    border: 1px solid red;
+}
+.contact-content{
+    display: block;
+    padding-top: 100px;
+    padding-left: 150px;
+    font-weight: bold;
 
+}
+.contact-content h3{
+    font-size: 24px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+.contact-content h4{
+    font-size: 18px;
+    padding-left: 18px;
+    font-weight: bold;
+
+}
+.contact-content h5{
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 15px;
+}
+.form-group-content input{
+    height: 150px;
+    padding-top: 15px;
+}
+.btn-contact{
+    padding: 7px 15px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    /* height: px; */
+    width: max-content;
+    border-bottom: 1px grey;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+    font-family: Sand-Bold;
+}
 /* responsive for 540px screen width */
 @media screen and (max-width: 540px){
     .menu-pc{display: none;}
