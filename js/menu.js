@@ -4,3 +4,8 @@ $('#click-menu').click(function() {
      $('#menu-demo').slideToggle();
     console.log(flag);  
 });
+$('#submenu').click(function() {
+    //alert('hello');
+     $('#submenu-demo').slideToggle();
+    //console.log(flag);  
+});
