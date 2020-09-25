@@ -8,6 +8,25 @@ $("#m-footer-2").click(function(){
 $("#m-footer-3").click(function(){
     $("#m-footer-3-sub").slideToggle();
   });
+
+
+  $("#m-faq-item-1").click(function(){
+    $("#m-faq-sub-1").slideToggle();
+  });
+  $("#m-faq-item-2").click(function(){
+    $("#m-faq-sub-2").slideToggle();
+  });
+  $("#m-faq-item-3").click(function(){
+    $("#m-faq-sub-3").slideToggle();
+  });
+  $("#m-faq-item-4").click(function(){
+    $("#m-faq-sub-4").slideToggle();
+  });
+  $("#m-faq-item-5").click(function(){
+    $("#m-faq-sub-5").slideToggle();
+  });
+
+
 $('#click-menu').click(function () { 
   isBool = true;
   if (!isBool) {
