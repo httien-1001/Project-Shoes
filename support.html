@@ -7,6 +7,7 @@
     
     <!-- Latest compiled and minified CSS-->
     <link rel="stylesheet" media="screen" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
     <!-- custom CSS -->
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -14,33 +15,91 @@
     <!-- menu -->
     <div class="container">
         <div class="header-menu" id="myHeader">
-            <div class="">
+            <div class="menu-pc">
                 <nav>
                     <ul>
                         <li><a href="about.html">Về chúng tôi</a></li>
-                        <li><a href="product.html">Sản phẩm</a></li>
-                        <li>The G</li>
+                        <li>Sản phẩm
+                            <ul>
+                                <li><a href="product-type-1.html">Giày da</a></li>
+                                <li><a href="product-type-2.html">Giày vải</a></li>
+                                
+                            </ul>
+                        </li>
+                        <li class="logo"><a href="home.html"><img src="img/LOGO/Asset 6.png" alt=""></a></li>
                         <li><a href="cart.html">Giỏ hàng</a></li>
                         <li><a href="support.html">Trợ giúp</a></li>
                     </ul>
                 </nav>
             </div>
+            <div class="menu-mobile">
+               
+                        <div class="row">
+                            
+                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                               <div class="text-left">
+                                <btn id="click-menu" class="btn-click-menu">
+                                    <i class="fas fa-bars " id="change-icon"></i>
+                                </btn>
+                               </div>
+                            </div>
+                            
+                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                <div class="text-center">
+                                    <div class="m-logo">
+                                        <img src="img/LOGO/Asset 6.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                <div class="text-right">
+                                    <div class="m-bag pull-right">
+                                        <i class="fas fa-shopping-bag">
+                                            <a href="cart.html"></a>
+                                        </i>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+            </div>
+                    <div class="menu-moblie-demo" id="menu-demo">
+                        <nav>
+                        <ul>
+                            <li><a href="about.html">Về chúng tôi</a></li>
+                            <li><a href="product-type-1.html">Giày da</a></li>
+                            <li><a href="product-type-2.html">Giày vải</a></li>
+                            <!-- <li id="submenu"> sản phẩm
+                                <ul class="submenu-demo">
+                                    <li><a href="product-type-1.html">Giày da</a></li>
+                                    <li><a href="product-type-2.html">Giày vải</a></li>
+                                    
+                                </ul>
+                            </li> -->
+                            
+                            
+                            <li><a href="support.html">Trợ giúp</a></li>
+                        </ul>
+                    </nav>
+                    </div>
+                    
+               
+            
         </div>
     </div>
     <!-- end-menu -->
     <!-- main body -->
     
-    <div class="body-intro">
-        <img src="img/liên hệ/liên hệ.png" alt="">
-    </div>
+    
     <div class="container">
         <div class="row">
             
-            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+            <div class="col-xs-12 col-sm-1 col-md-1 col-lg-1">
                 
             </div>
             
-            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
                 <div class="home-item">
                     <div class="home-text">
                         <h3>
@@ -50,11 +109,11 @@
                 </div>
             </div>
             
-            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+            <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
                 
             </div>
             
-            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
                 <div class="home-item">
                     <div class="home-text">
                         <h3>
@@ -74,15 +133,15 @@
     </div>
     <!-- end main body -->
     <!-- footer -->
-    <div class="line-footer">
-        
-    </div>
+    
     <div class="footer">
         <div class="container">
             <div class="row">
                 
                 <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                    <span> The G</span>
+                    <div class="footer-logo">
+                        <img src="img/LOGO/Asset 6.png" alt="">
+                    </div>
                 </div>
                 
                 <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
@@ -183,9 +242,101 @@
             </div>
         </div>
     </div>
+    <div class="m-footer">
+        <div class="footer-item">
+            <h3 id="m-footer-1">Sản phẩm
+                <span class="m-footer-icon">
+                    <i class="fas fa-angle-down"></i>
+                </span>
+            </h3>
+                <ul id="m-footer-1-sub">
+                    <li><a href="product-type-1.html">Giày da</a></li>
+                    <li><a href="product-type-2.html">Giày vải</a></li>
+                </ul>
+        </div>
+        <div class="footer-item">
+            <h3 id="m-footer-2" >Hỗ trợ
+                <span class="m-footer-icon">
+                    <i class="fas fa-angle-down"></i>
+                </span>
+            </h3>
+                <ul id="m-footer-2-sub">
+                    <ul>
+                        <li><a href="FAQs.html">FAQs</a></li>
+                        <li><a href="">Chính sách chung</a></li>
+                        <li><a href="">Bảo mật thông tin</a></li>
+                        <li><a href="">Tra cứu đơn hàng</a></li>
+                    </ul>
+                </ul>
+        </div>
+        <div class="footer-item">
+            <h3 id="m-footer-3">Liên hệ
+                <span class="m-footer-icon">
+                    <i class="fas fa-angle-down"></i>
+                </span>
+            </h3>
+                <ul id="m-footer-3-sub">
+                    
+                    <li>TheG.company2020@gmail.com</li>
+                    <li>0962 989 745</li>    
+                    
+                </ul>
+        </div>
+        <div class="footer-item-2">
+
+            <div class="footer-demo">
+                <span>Theo dõi</span> <img src="img/LOGO/Asset 6.png" alt="" width="50px">
+            </div>
+            <div class="footer-social">
+                <div class="footer-follow">
+                    <img src="img/footer/768px-Facebook-icon-1.png" alt="">
+                </div>
+                <div class="footer-follow">
+                    <img src="img/footer/insta.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="footer-item-3 footer-item">
+            <h3>Đăng ký để nhận thông báo sản phẩm mới</h3>
+            
+            <form action="" method="POST" class="form-inline" role="form">
+                <div class="row">
+                    
+                    <div class="col-xs-7 col-sm-8 col-md-8 col-lg-8">
+                        <div class="form-group">
+                    
+                            <input type="email" class="form-control" id="" placeholder="E-mail">
+                        </div>
+                    </div>
+                    
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                        <button type="submit" class="btn btn-footer"><span class="glyphicon glyphicon-arrow-right"></span></button>
+                        
+                    </div>
+                    
+                </div>
+                
+            
+                
+            
+            </form>
+            
+        </div>
+        <div class="footer-item footer-item-3">
+            <div class="text-center">
+                <h3>ĐỊA CHỈ</h3>
+                <ul>
+                    <li>29D Phạm Văn Bạch, Hà Nội.</li>
+                    <li>30E Nguyễn Văn Hưởng, Hồ Chí Minh.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
     <!-- end-footer -->
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <script src="js/all.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/mobile.js"></script>
 </body>
 </html>
