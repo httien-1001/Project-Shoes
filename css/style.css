@@ -69,11 +69,12 @@
 }
 .header-menu nav ul li ul{
     position: absolute;
-    top: 50px;
+    top: 40px;
     left: 0px;
     background-color: #fff;
     width: 150px;
     display: none;
+    z-index: 1000;
 }
 .header-menu nav ul li ul li{
     display: block;
@@ -231,7 +232,7 @@
 }
 .shop-img{
     margin-bottom: 30px;
-    height: 585px;
+    height: 575px;
     width: 100%;
 }
 .shop-img img{
@@ -601,11 +602,13 @@ border-left: 20px solid white;
 }
 .faq-content-item{
     display: block;
+    padding-left: 15px;
     padding-top: 15px;
     padding-bottom: 15px;
     width: 640px;
     height: 500px;
     overflow: auto;
+    text-align: justify;
 }
 .faq-content-item span{
     display: block;
@@ -773,6 +776,8 @@ border-left: 20px solid white;
         margin-right: 15px;
     }
     .footer-demo img{
+        margin-left: 15px;
+        margin-bottom: 10px;
         width: 80px !important;
     }
     .footer-item input{
@@ -830,6 +835,10 @@ border-left: 20px solid white;
         margin-top: 0px;
         padding-top: 130px;
         background-color: #dedeff;
+    }
+    /* shopbylook */
+    .shop-img{
+        height: 760px;
     }
     /* product */
     .shop-search input{
